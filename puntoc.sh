@@ -16,4 +16,12 @@
    56  id tester1
    57  id devop2
    58  id devops2
-
+chmod 775 -R Examenes-UTN/profesores/
+ chmod 700 -R Examenes-UTN/alumnos_3/
+ chmod 760 -R Examenes-UTN/alumnos_2/
+ chmod 750 -R Examenes-UTN/alumnos_1/
+whoami > Examenes-UTN/alumnos_1/validar.txt
+whoami > Examenes-UTN/alumnos_2/validar.txt
+whoami > Examenes-UTN/alumnos_3/validar.txt
+whoami > Examenes-UTN/profesores/validar.txt
+tree Examenes-UTN/
